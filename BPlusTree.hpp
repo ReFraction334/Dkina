@@ -61,7 +61,7 @@ private:
 	};
     class BufferPool
     {
-        static const int BufferPoolSizeLimit = 500;
+        static const int BufferPoolSizeLimit = 5000;
         struct BPtreeNode
         {
             Node nd;
